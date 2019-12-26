@@ -24,5 +24,9 @@ public class Pause : MonoBehaviour
             VarPause = false;
             Time.timeScale = 1;
         }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 }

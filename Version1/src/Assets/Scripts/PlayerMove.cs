@@ -5,7 +5,6 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour
 {
     public float FastSpeed;
-    public GameObject mySphere;
     private float MoveSpeed = 0f;//定义移动速度
     private Ray ray;//声明射线
     private RaycastHit hit;//射线检测的碰撞体的位置
